@@ -1,13 +1,13 @@
 {
   "name": "pathhash",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "get the hash of a file at a given path",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "mocha --reporter spec"
+    "test": "node_modules/.bin/mocha --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,8 @@
   "license": "BSD",
   "readmeFilename": "README.md",
   "gitHead": "293e488d0a6460c1aaf36772bbb32209c284046b",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "eyespect": "~0.1.8",
     "should": "~1.2.1",
     "mocha": "~1.8.1"
